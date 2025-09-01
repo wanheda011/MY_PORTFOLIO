@@ -147,3 +147,89 @@ a:hover{
     color: darkgray;
     line-height: 1.7rem;
 }
+
+.experience-container {
+    margin-top: 5rem;
+}
+
+.experience-container > p {
+    text-align: center;
+    color: darkgray;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.experience-container > h2 {
+    font-size: 2rem;
+}
+
+.experience-div {
+    margin-top: 5rem;
+}
+
+.Frontend{
+    width: 500px;
+    /* background-color: aquamarine; */
+    padding: 30px 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.Frontend h3 {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.tech-list ul li {
+    margin: 20px 0px;
+}
+
+.tech-list ul li h4 {
+    margin-bottom: 10px;
+}
+
+#project-section {
+    margin-top: 5rem;
+}
+
+.project-container  > p {
+    text-align: center;
+    color: rgb(200, 13, 13);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-container  > h2 {
+    font-size: 2rem;
+}
+
+.projects {
+    margin-top: 5rem;
+}
+
+.projects #project {
+    padding: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.projects #project img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+.projects #project h3 {
+    margin: 20px 0px;
+}
+
+.projects #project a {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.projects #project a:hover {
+    background-color: black;
+    color: white;
+}
