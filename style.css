@@ -19,7 +19,7 @@ a {
     text-decoration: none;
     color: black;
     font-size: 1.2rem;
-    transition: all ease 800ms;
+    transition: all ease 100ms;
 }
 
 li {
@@ -37,7 +37,7 @@ li {
 .container{
     width: 100%;
     height: 100vh;
-    padding: 0px 200px;
+    padding: 50px 200px;
 }
 
 
@@ -87,7 +87,10 @@ a:hover{
 }
 
 #profile-btn a:nth-child(1){
+    background-color: green;
     padding: 10px;
+    color: white    
+    ;
     border: 1px solid black;
     border-radius: 50px;
     font-size: 0.80rem;
@@ -132,7 +135,7 @@ a:hover{
 .about-info-div{
     width: 350px;
     padding: 20px 50px;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
     border-radius: 20px;
     flex-direction: column;
@@ -171,7 +174,7 @@ a:hover{
     width: 500px;
     /* background-color: aquamarine; */
     padding: 30px 60px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
 }
 
@@ -194,7 +197,7 @@ a:hover{
 
 .project-container  > p {
     text-align: center;
-    color: rgb(200, 13, 13);
+    color: darkgray;
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
@@ -209,7 +212,7 @@ a:hover{
 
 .projects #project {
     padding: 50px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     text-align: center;
 }
@@ -225,11 +228,67 @@ a:hover{
 
 .projects #project a {
     padding: 10px 20px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
 }
 
 .projects #project a:hover {
     background-color: black;
     color: white;
+}
+
+.get-in-touch-container{
+    padding: 10px 100px;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.get-in-touch-container p {
+    color: darkgray;
+    font-size: 1.2rem;
+}
+
+.get-in-touch-container h2 {
+    font-size: 2rem;
+}
+
+.Contact-div {
+    width: min-content;
+    border: 2px solid black;
+    border-radius: 20px;
+    gap: 0px;
+
+}
+
+.Contact-links {
+    padding: 20px;
+   
+}
+
+.Contact-links > a:hover {
+    color: lightgray;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 15px;
+}
+
+.Contact-links img {
+    width: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 30px;
+}
+
+.footer-links li a{
+    font-size: 1.5rem;
 }
