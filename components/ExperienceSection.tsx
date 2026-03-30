@@ -86,7 +86,7 @@ export const ExperienceSection: React.FC = () => {
               <div
                 key={exp.id}
                 ref={(el) => {
-                  itemsRef.current[index] = el || undefined;
+                  itemsRef.current[index] = el || null;
                 }}
                 className={`grid md:grid-cols-2 gap-8 items-center relative ${
                   index % 2 === 0 ? 'md:grid-flow-dense' : ''

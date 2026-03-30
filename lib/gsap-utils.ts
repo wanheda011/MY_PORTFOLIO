@@ -180,7 +180,6 @@ export const pinSection = (
     animation,
     pin: true,
     scrub: 1,
-    duration,
     markers: false,
   });
 };
